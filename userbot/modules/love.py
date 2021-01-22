@@ -1,8 +1,8 @@
-from time import sleep
+from datatime import datetime 
 from userbot import CMD_HELP, bot
 from userbot.events import register
-from telethon import events
-import asyncio
+from telethon.events import 
+import asyncio import sleep
 
 
 @register(outgoing=True, pattern="^.sayang$")
